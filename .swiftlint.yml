@@ -1,0 +1,17 @@
+disabled_rules:
+  - nesting
+included:
+  - Novewl/Sources
+excluded:
+  - Pods
+line_length: 200
+type_body_length:
+  - 300
+  - 400
+file_length:
+  warning: 500
+  error: 1000
+identifier_name:
+  excluded:
+    - id
+    - ok

@@ -1,0 +1,18 @@
+PODS:
+  - Nimble (6.1.0)
+  - Quick (1.1.0)
+  - SwiftLint (0.17.0)
+
+DEPENDENCIES:
+  - Nimble
+  - Quick
+  - SwiftLint
+
+SPEC CHECKSUMS:
+  Nimble: c53e6903fee94041b90ded74f135820437d8bf59
+  Quick: dafc587e21eed9f4cab3249b9f9015b0b7a7f71d
+  SwiftLint: 9fb1dd71d5952d130f8c2fb60ae2e1475cf5d575
+
+PODFILE CHECKSUM: 43175e32acaeecfa75114856032021f64c298571
+
+COCOAPODS: 1.2.0

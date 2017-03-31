@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		907A96BC7704775CB2480AE0 /* Pods_NovewlTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB220EE5EFEB2D84F9BF1700 /* Pods_NovewlTests.framework */; };
+		9334FA8FB9DD78671D48096C /* Pods_Novewl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24B01FA7848966E6B01A01F6 /* Pods_Novewl.framework */; };
+		FA4DCB5E1E8E877E003E5E04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4DCB5D1E8E877E003E5E04 /* AppDelegate.swift */; };
+		FA4DCB601E8E877E003E5E04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4DCB5F1E8E877E003E5E04 /* ViewController.swift */; };
+		FA4DCB631E8E877E003E5E04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA4DCB611E8E877E003E5E04 /* Main.storyboard */; };
+		FA4DCB651E8E877E003E5E04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA4DCB641E8E877E003E5E04 /* Assets.xcassets */; };
+		FA4DCB681E8E877E003E5E04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA4DCB661E8E877E003E5E04 /* LaunchScreen.storyboard */; };
+		FA4DCB731E8E877E003E5E04 /* NovewlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4DCB721E8E877E003E5E04 /* NovewlTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA4DCB6F1E8E877E003E5E04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA4DCB521E8E877E003E5E04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA4DCB591E8E877E003E5E04;
+			remoteInfo = Novewl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24B01FA7848966E6B01A01F6 /* Pods_Novewl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Novewl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BC9F703C2D68D91A1DD8BD8 /* Pods-NovewlTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NovewlTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NovewlTests/Pods-NovewlTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D99775E391EA6E491888B2C /* Pods-Novewl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Novewl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Novewl/Pods-Novewl.debug.xcconfig"; sourceTree = "<group>"; };
+		AB220EE5EFEB2D84F9BF1700 /* Pods_NovewlTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NovewlTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA2589F6021FA022B57C368E /* Pods-Novewl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Novewl.release.xcconfig"; path = "Pods/Target Support Files/Pods-Novewl/Pods-Novewl.release.xcconfig"; sourceTree = "<group>"; };
+		EA56EDCCD7A2359DA9E80202 /* Pods-NovewlTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NovewlTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NovewlTests/Pods-NovewlTests.release.xcconfig"; sourceTree = "<group>"; };
+		FA4DCB5A1E8E877E003E5E04 /* Novewl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Novewl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4DCB5D1E8E877E003E5E04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA4DCB5F1E8E877E003E5E04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA4DCB621E8E877E003E5E04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA4DCB641E8E877E003E5E04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA4DCB671E8E877E003E5E04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA4DCB691E8E877E003E5E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA4DCB6E1E8E877E003E5E04 /* NovewlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NovewlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4DCB721E8E877E003E5E04 /* NovewlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovewlTests.swift; sourceTree = "<group>"; };
+		FA4DCB741E8E877E003E5E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA4DCB571E8E877E003E5E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9334FA8FB9DD78671D48096C /* Pods_Novewl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4DCB6B1E8E877E003E5E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				907A96BC7704775CB2480AE0 /* Pods_NovewlTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D311539C250A90C5809ED1DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D99775E391EA6E491888B2C /* Pods-Novewl.debug.xcconfig */,
+				EA2589F6021FA022B57C368E /* Pods-Novewl.release.xcconfig */,
+				4BC9F703C2D68D91A1DD8BD8 /* Pods-NovewlTests.debug.xcconfig */,
+				EA56EDCCD7A2359DA9E80202 /* Pods-NovewlTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E1BB52434C8C6DD8E12187FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24B01FA7848966E6B01A01F6 /* Pods_Novewl.framework */,
+				AB220EE5EFEB2D84F9BF1700 /* Pods_NovewlTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA4DCB511E8E877E003E5E04 = {
+			isa = PBXGroup;
+			children = (
+				FA4DCB5C1E8E877E003E5E04 /* Novewl */,
+				FA4DCB711E8E877E003E5E04 /* NovewlTests */,
+				FA4DCB5B1E8E877E003E5E04 /* Products */,
+				D311539C250A90C5809ED1DB /* Pods */,
+				E1BB52434C8C6DD8E12187FD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA4DCB5B1E8E877E003E5E04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA4DCB5A1E8E877E003E5E04 /* Novewl.app */,
+				FA4DCB6E1E8E877E003E5E04 /* NovewlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA4DCB5C1E8E877E003E5E04 /* Novewl */ = {
+			isa = PBXGroup;
+			children = (
+				FA4DCB5D1E8E877E003E5E04 /* AppDelegate.swift */,
+				FA4DCB5F1E8E877E003E5E04 /* ViewController.swift */,
+				FA4DCB611E8E877E003E5E04 /* Main.storyboard */,
+				FA4DCB641E8E877E003E5E04 /* Assets.xcassets */,
+				FA4DCB661E8E877E003E5E04 /* LaunchScreen.storyboard */,
+				FA4DCB691E8E877E003E5E04 /* Info.plist */,
+			);
+			path = Novewl;
+			sourceTree = "<group>";
+		};
+		FA4DCB711E8E877E003E5E04 /* NovewlTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA4DCB721E8E877E003E5E04 /* NovewlTests.swift */,
+				FA4DCB741E8E877E003E5E04 /* Info.plist */,
+			);
+			path = NovewlTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA4DCB591E8E877E003E5E04 /* Novewl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA4DCB771E8E877E003E5E04 /* Build configuration list for PBXNativeTarget "Novewl" */;
+			buildPhases = (
+				2EBA2FDDAB7A455A23B86382 /* [CP] Check Pods Manifest.lock */,
+				FA4DCB561E8E877E003E5E04 /* Sources */,
+				FA4DCB571E8E877E003E5E04 /* Frameworks */,
+				FA4DCB581E8E877E003E5E04 /* Resources */,
+				FA4DCB7D1E8E8801003E5E04 /* SwiftLint */,
+				C3A649301FA6CC55D17EAB68 /* [CP] Embed Pods Frameworks */,
+				E4A7345BDD87C6A776523E1D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Novewl;
+			productName = Novewl;
+			productReference = FA4DCB5A1E8E877E003E5E04 /* Novewl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA4DCB6D1E8E877E003E5E04 /* NovewlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA4DCB7A1E8E877E003E5E04 /* Build configuration list for PBXNativeTarget "NovewlTests" */;
+			buildPhases = (
+				FC46F686E4404B974B95C631 /* [CP] Check Pods Manifest.lock */,
+				FA4DCB6A1E8E877E003E5E04 /* Sources */,
+				FA4DCB6B1E8E877E003E5E04 /* Frameworks */,
+				FA4DCB6C1E8E877E003E5E04 /* Resources */,
+				5AE48C743ACC05CE0B6D6FCE /* [CP] Embed Pods Frameworks */,
+				6A44BD7B66269B16B40C5917 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA4DCB701E8E877E003E5E04 /* PBXTargetDependency */,
+			);
+			name = NovewlTests;
+			productName = NovewlTests;
+			productReference = FA4DCB6E1E8E877E003E5E04 /* NovewlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA4DCB521E8E877E003E5E04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ShunsukeFurubayashi;
+				TargetAttributes = {
+					FA4DCB591E8E877E003E5E04 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					FA4DCB6D1E8E877E003E5E04 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA4DCB591E8E877E003E5E04;
+					};
+				};
+			};
+			buildConfigurationList = FA4DCB551E8E877E003E5E04 /* Build configuration list for PBXProject "Novewl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA4DCB511E8E877E003E5E04;
+			productRefGroup = FA4DCB5B1E8E877E003E5E04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA4DCB591E8E877E003E5E04 /* Novewl */,
+				FA4DCB6D1E8E877E003E5E04 /* NovewlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA4DCB581E8E877E003E5E04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4DCB681E8E877E003E5E04 /* LaunchScreen.storyboard in Resources */,
+				FA4DCB651E8E877E003E5E04 /* Assets.xcassets in Resources */,
+				FA4DCB631E8E877E003E5E04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4DCB6C1E8E877E003E5E04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2EBA2FDDAB7A455A23B86382 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5AE48C743ACC05CE0B6D6FCE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NovewlTests/Pods-NovewlTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A44BD7B66269B16B40C5917 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NovewlTests/Pods-NovewlTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3A649301FA6CC55D17EAB68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Novewl/Pods-Novewl-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4A7345BDD87C6A776523E1D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Novewl/Pods-Novewl-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA4DCB7D1E8E8801003E5E04 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"";
+		};
+		FC46F686E4404B974B95C631 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA4DCB561E8E877E003E5E04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4DCB601E8E877E003E5E04 /* ViewController.swift in Sources */,
+				FA4DCB5E1E8E877E003E5E04 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4DCB6A1E8E877E003E5E04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4DCB731E8E877E003E5E04 /* NovewlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA4DCB701E8E877E003E5E04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA4DCB591E8E877E003E5E04 /* Novewl */;
+			targetProxy = FA4DCB6F1E8E877E003E5E04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA4DCB611E8E877E003E5E04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA4DCB621E8E877E003E5E04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA4DCB661E8E877E003E5E04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA4DCB671E8E877E003E5E04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA4DCB751E8E877E003E5E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA4DCB761E8E877E003E5E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA4DCB781E8E877E003E5E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D99775E391EA6E491888B2C /* Pods-Novewl.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Novewl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.novewl.Novewl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FA4DCB791E8E877E003E5E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA2589F6021FA022B57C368E /* Pods-Novewl.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Novewl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.novewl.Novewl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FA4DCB7B1E8E877E003E5E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BC9F703C2D68D91A1DD8BD8 /* Pods-NovewlTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NovewlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.novewl.NovewlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Novewl.app/Novewl";
+			};
+			name = Debug;
+		};
+		FA4DCB7C1E8E877E003E5E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA56EDCCD7A2359DA9E80202 /* Pods-NovewlTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NovewlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.novewl.NovewlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Novewl.app/Novewl";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA4DCB551E8E877E003E5E04 /* Build configuration list for PBXProject "Novewl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA4DCB751E8E877E003E5E04 /* Debug */,
+				FA4DCB761E8E877E003E5E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA4DCB771E8E877E003E5E04 /* Build configuration list for PBXNativeTarget "Novewl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA4DCB781E8E877E003E5E04 /* Debug */,
+				FA4DCB791E8E877E003E5E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA4DCB7A1E8E877E003E5E04 /* Build configuration list for PBXNativeTarget "NovewlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA4DCB7B1E8E877E003E5E04 /* Debug */,
+				FA4DCB7C1E8E877E003E5E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA4DCB521E8E877E003E5E04 /* Project object */;
+}

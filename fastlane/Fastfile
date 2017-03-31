@@ -1,0 +1,32 @@
+fastlane_version "2.24.0"
+
+default_platform :ios
+
+platform :ios do
+  
+  ############################ PRE ############################
+  
+  before_all do 
+  end
+  
+  ######################## SETUP LANES ########################
+
+  ####################### PUBLIC LANES ########################
+
+  desc "Runs all the tests"
+  lane :test do
+  end
+
+  ####################### PRIVATE LANES ########################
+
+  ############################ POST ############################
+
+  after_all do |lane|
+  end
+
+  error do |lane, exception|
+  end
+  
+  ####################### SETUP DEVELOPER #########################
+   
+end
